@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-image: url('./sources/fondo2.jpg');
+    background-image: url('./sources/fondo.jpg');
     background-repeat: no-repeat ;
     background-position: center;
     /* background-size: cover; */
@@ -48,5 +48,6 @@ img:hover{
     background-color: rgb(238, 231, 139);
     z-index: 10000000;
     position: absolute;
+    padding: 2px;
     
 }
