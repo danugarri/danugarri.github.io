@@ -7,9 +7,10 @@ const project= document.getElementsByClassName('project');
 const storyBook= document.getElementById('storybook');
 const text= document.getElementById('story');
 
-const displayToolTip= () => {
+const displayToolTip= (e) => {
     for(let x=0;x<projectNames.length;x++) {
-        tooltip[x].innerHTML= projectNames[x]
+        if(e.target.name=== projectNames[x])
+        tooltip[x].innerHTML= e.target.name
         
     }
 }
