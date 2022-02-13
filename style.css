@@ -1,8 +1,22 @@
 body{
     text-align: center;
+    background-image: url('./sources/fondo2.jpg');
+    background-repeat: no-repeat ;
+    background-position: center;
+    /* background-size: cover; */
+
 }
-li{
-    list-style: none;
+h1{
+    color: white;
+    font-size: 40px;
+    text-decoration: solid;
+
+}
+#separator{
+  
+    width: 100%;
+    border-top:3px solid  aliceblue;
+
 }
 #container{
     
@@ -23,7 +37,7 @@ li{
 img{
     width:250px;
     height: 150px;
-    border: 2px solid black;
+    border: 2px solid rgb(252, 251, 246);
     border-radius: 25px;
 }
 img:hover{

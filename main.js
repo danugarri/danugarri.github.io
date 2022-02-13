@@ -1,11 +1,11 @@
 const projectNames= [
-    'StoryBook', 'The encrypter app', 'Dni app'
+    'StoryBook', 'The encrypter app', 'Dni app', 'BMI calculator', 'Anagramas','The wagon game','Ronda pensamientos'
 ];
 projectNames.map(project => console.log(project))
 const tooltip= document.getElementsByClassName('tooltip');
 const project= document.getElementsByClassName('project');
 const storyBook= document.getElementById('storybook');
-const text= document.getElementById('story');
+
 
 const displayToolTip= (e) => {
     for(let x=0;x<projectNames.length;x++) {
