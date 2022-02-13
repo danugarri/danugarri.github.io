@@ -17,6 +17,9 @@ li{
     height: 150px;
     margin:10px 20px 10px 20px;
 }
+.project:hover{
+    display: inline;
+}
 img{
     width:250px;
     height: 150px;
@@ -25,4 +28,11 @@ img{
 }
 img:hover{
    box-shadow: 2px 2px 5px 5px rgba(241, 187, 7, 0.8);
+   cursor: pointer;
+}
+.tooltip{
+    background-color: rgb(238, 231, 139);
+    z-index: 10000000;
+    position: absolute;
+    
 }
