@@ -1,5 +1,6 @@
 const projectNames= [
-    'StoryBook', 'The encrypter app', 'Dni app', 'BMI calculator', 'Anagramas','The wagon game','Ronda pensamientos'
+     'Inventario Daniel','StoryBook', 'The encrypter app', 'Dni app', 'BMI calculator', 'Anagramas','The wagon game',
+    'Ronda pensamientos','Shopping list', 'Pokémon','Que no te pille el bot'
 ];
 projectNames.map(project => console.log(project))
 const tooltip= document.getElementsByClassName('tooltip');
