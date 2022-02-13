@@ -48,6 +48,8 @@ img:hover{
     background-color: rgb(238, 231, 139);
     z-index: 10000000;
     position: absolute;
-    padding: 2px;
+    padding: 3px;
+    display: none;
+    /* border-radius: 25px; */
     
 }

@@ -9,14 +9,18 @@ const storyBook= document.getElementById('storybook');
 
 const displayToolTip= (e) => {
     for(let x=0;x<projectNames.length;x++) {
-        if(e.target.name=== projectNames[x])
-        tooltip[x].innerHTML= e.target.name
+        if(e.target.name=== projectNames[x]) {
+
+            tooltip[x].innerHTML= e.target.name
+            tooltip[x].style.display= 'inline';
+        }
         
     }
 }
 const hideToolTip= () => {
      for(let x=0;x<projectNames.length;x++) {
         tooltip[x].innerHTML= '';
+         tooltip[x].style.display= 'none';
     }
 }
 for(let i=0; i<project.length;i++) {
